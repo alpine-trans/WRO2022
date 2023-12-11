@@ -1,0 +1,18 @@
+
+配列への入力とBT出力テスト
+　　　100までの数を配列に収納してBluetoothで送信
+
+for(i=1;i<=100;i++){
+col_data[n]=n;
+n=n+1;
+}
+
+n=0;
+for(i=1;i<=100;i++){
+fprintf(bt,"%d\r\n",col_data[n]);
+n=n+1;
+}
+
+
+関数動作確認テスト
+
